@@ -1,0 +1,26 @@
+# This is a comment. The # must be at the beginning of a line.
+# Everything else is part of the format string. We recognise these placeholders:
+# {0} - title
+# {1} - artist
+# {2} - album
+# {3} - cover
+ 
+
+
+<table align="center">
+	<tr>
+		<td align="center"><a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;show"><img src={3} width=148/></a></td>
+    </tr>
+    <tr>
+		<td align="center" style="padding:8px;"><span style="font-size:16pt;font-weight:bold;">{0}</span>
+		<br>{1}<br>{2}</td>
+	</tr>
+	<tr>
+        <td align="center" style="vertical-align:middle;">
+        <a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;prev"><img src=/usr/share/skutter/mediaprev.png></a>
+#		<a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;stop"><img src=/usr/share/skutter/mediastop.png></a>
+#		<a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;play"><img src=/usr/share/skutter/mediaplay.png></a>
+		<a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;toggle"><img src={4}></a>
+		<a href="dbus:session;org.bedevil.Skutter;/Control;org.bedevil.Skutter;Player;next"><img src=/usr/share/skutter/medianext.png></td></a>
+	</tr>
+</table>

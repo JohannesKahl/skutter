@@ -1,0 +1,47 @@
+# Placeholders:
+#
+# {0}      - city
+# {1}      - updated
+# {2}      - icon
+# {3}      - temp
+# {4}      - condition
+# {5}      - sunrise
+# {6}      - sunset
+# {7}      - humidity
+# {8}      - pressure
+# {9}      - forecast today
+# {10}     - forecast today condition
+# {11}     - forecast today icon
+# {12}     - forecast today low
+# {13}     - forecast today high
+# {14}     - tomorrow
+# {15}     - tomorrow condition
+# {16}     - tomorrow icon
+# {17}     - tomorrow low
+# {18}     - tomorrow high
+
+<table align="center">
+    <tr>
+        <td align="center" colspan="3">
+            <span style="font-size:16pt;font-weight:bold;">{0}</span>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" style="vertical-align: middle;"><img src=/usr/share/skutter/icons/{2}.png width="64"/></td>
+        <td align="center" style="vertical-align:middle;"><span style="font-size:36pt;font-weight:bold;">{3}°</span></td>
+    </tr>
+    <tr>
+        <td>Sunrise: {5}<br>Sunset:  {6}<br>&nbsp;</td>
+        <td colspan="2">Humidity: {7}<br>Pressure: {8}<br>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><span style="font-weight:bold;">{9}</span></td>
+        <td align="center" style="vertical-align: middle;"><img src=/usr/share/skutter/icons/{11}.png width="32"/></td>
+        <td>{12}° ~ {13}°</td>
+    </tr>
+    <tr>
+        <td><span style="font-weight:bold;">{14}</span></td>
+        <td align="center" style="vertical-align: middle;"><img src=/usr/share/skutter/icons/{16}.png width="32"/></td>
+        <td>{17}° ~ {18}°</td>
+    </tr>
+</table>
